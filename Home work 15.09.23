@@ -1,0 +1,39 @@
+'''x = []
+for i in range(10, 100):
+    a = i % 4
+    b = i % 2
+    c = i % 5
+    res = f"{a}{b}{c}"
+    if res == "202":
+        x.append(i)
+print(max(x)) #Ответ 82'''
+
+'''x = []
+for i in range(10, 100):
+    a = i % 4
+    b = i % 2
+    c = i % 3
+    res = f"{a}{b}{c}"
+    if res == "201":
+        x.append(i)
+print(len(x)) #Ответ 8'''
+
+'''x = []
+for i in range(10, 100):
+    a = i % 4
+    b = i % 3
+    c = i % 2
+    res = f"{a}{b}{c}"
+    if res == "200":
+        x.append(i)
+print(len(x)) #Ответ 7'''
+
+'''x = []
+for i in range(10, 100):
+    a = i % 7
+    b = i % 2
+    c = i % 5
+    res = f"{a}{b}{c}"
+    if res == "312":
+        x.append(i)
+print(len(x)) #Ответ 2'''
